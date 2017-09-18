@@ -1,0 +1,99 @@
+@charset "utf-8";
+body .main {
+  padding: 0 0.2rem 0 0.2rem;
+}
+.head .join {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.head .join {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.31rem;
+  color: #394659;
+  text-align: center;
+}
+.head .contain {
+  margin-bottom: 0.28rem;
+  padding: 0 0.6rem;
+  background-color: white;
+  border-radius: 0.04rem;
+  position: relative;
+}
+.head .contain .tit {
+  padding-top:.1rem;
+  min-height: 0.73rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #DBDBDB;
+  color: #394659;
+}
+.head .contain .tit h3 {
+  font-weight: normal;
+  font-size: 0.31rem;
+}
+.head .contain .sale {
+  background-color: #fff;
+  font-size: 0.26rem;
+  line-height: .5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.15rem;
+  color: #999;
+}
+.head .contain .sale span {
+  color: #394659;
+}
+.head .contain .sale .pep span:first-of-type,
+.head .contain .sale .tel span:first-of-type {
+  margin-left: 0.22rem;
+}
+.head .contain .sale .pep span:first-of-type {
+  margin-right: 0.39rem;
+}
+.head .contain .sale .tel a {
+  display: inline-block;
+  margin-left: 0.35rem;
+  width: 0.28rem;
+  height: 0.30rem;
+  background: url("../img/phone.png") no-repeat center;
+  background-size: 0.28rem 0.30rem;
+}
+.head .contain .isopen_tl {
+  width: 0.6rem;
+  height: 0.57rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 0.04rem;
+}
+.head .contain .isopen_br {
+  width: 1.96rem;
+  height: 0.56rem;
+  position: absolute;
+  bottom: -0.08rem;
+  right: -0.04rem;
+}
+.head .contain .isopen_tl.type1 {
+  background: url("../img/fy_triangle_blue.png") no-repeat center;
+  background-size: 0.6rem 0.57rem;
+}
+.head .contain .isopen_br.type1 {
+  background: url("../img/fy_polygon_blue.png") no-repeat center;
+  background-size: 1.96rem 0.56rem;
+}
+.head .contain .isopen_tl.type2 {
+  background: url("../img/fy_triangle_yellow.png") no-repeat center;
+  background-size: 0.6rem 0.57rem;
+}
+.head .contain .isopen_br.type2 {
+  background: url("../img/fy_polygon_yellow.png") no-repeat center;
+  background-size: 1.96rem 0.56rem;
+}
+.head .contain .isopen_tl.type3 {
+  background: url("../img/fy_triangle_gray.png") no-repeat center;
+  background-size: 0.6rem 0.57rem;
+}
+.head .contain .isopen_br.type3 {
+  background: url("../img/fy_polygon_gray.png") no-repeat center;
+  background-size: 1.96rem 0.56rem;
+}
