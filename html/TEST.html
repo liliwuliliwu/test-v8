@@ -51,12 +51,26 @@
             e.preventDefault();
         })
     };
+    function maskalert(cont, fn) {
+        $("body").append("<div id='maskident'><div class='mask_white'><h3></h3><div class='bottom_btn'><span>正在跳转中...</span></div></div></div>");
+        $("#maskident").show().find("h3").html(cont);
+        //阻止滚动冒泡
+        $("#maskident").bind("touchmove", function (e) {
+            e.preventDefault();
+        })
+    };
+
     $("#btn").click(function(){
         cancelConfirm();
     })
 
     function drup(){
-        window.location.href="base.html";
+        $("#maskident").remove();
+        maskalert("解除成功！");
+        setTimeout(function(){
+            $("#maskident").remove();
+            window.location.href="base.html";
+        },5000)
     }
 
 </script>
